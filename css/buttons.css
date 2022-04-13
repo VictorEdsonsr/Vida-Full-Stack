@@ -1,0 +1,10 @@
+.btn {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.btn.btn-laranja {
+  background-color: var(--laranja);
+  border-radius: 20px;
+  color: var(--branco);
+}
