@@ -1,0 +1,36 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  /* Classes Globais */
+  :root {
+    --azul-claro: #3399cc;
+    --roxo-claro: #333366;
+    --laranja: #ff6633;
+    --branco: #fff;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+body{
+    background-image: url(../images/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
