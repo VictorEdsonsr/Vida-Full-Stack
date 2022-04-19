@@ -1,0 +1,10 @@
+.btn {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+
+  &.btn.btn-laranja {
+    background-color: $color-terceary;
+    color: $color-white;
+  }
+}
