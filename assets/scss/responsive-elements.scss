@@ -29,13 +29,21 @@
     header {
         section {
             nav {
-                margin: 30px auto;
+                margin: 15px;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 
                 ul {
                     .row {
-                        flex-direction: row;
+                        flex-direction: column;
+                    }
+
+                    li {
+                        margin: 10px auto;
                     }
                 }
+
             }
         }
     }
@@ -70,28 +78,6 @@
     .container {
         width: 400px;
     }
-
-    header {
-        section {
-            nav {
-                background-color: white;
-                border-radius: 5px;
-                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
-
-                ul {
-                    .row {
-                        flex-direction: column;
-                    }
-
-                    li {
-                        margin: 10px auto;
-                    }
-                }
-
-            }
-        }
-    }
-
 
     .sobre-web {
         figure {
